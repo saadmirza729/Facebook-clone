@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../pages/new.css">
+    <title>Sign up for Facebook</title>
+</head>
+
+<body>
+    <div class="main">
+        <img class="fb_logo _8ilh img logo " src="https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg"
+            alt="Facebook" width="300px">
+        <div class="heading">
+            <div class="car">Create a new account</div>
+            <div class="sea">It's quick and easy</div>
+        </div>
+        <div class="box">
+            <form action="" class="back">
+                <div class="put">
+                    <input type="text" class="gas" placeholder="First name" id="firstName">
+                    <input type="text" class="gas" placeholder="Surname" id="surname">
+                </div>
+                <div class="dob">
+                    <p>Date of Birth</p>
+                    <div class="uno">
+                        <select name="select" class="city" id="date">
+                            <option value="" hidden>Date</option>
+                            <option value="1">1</option>
+                            <option value="31">31</option>
+                        </select>
+                        <select name="month" class="month" id="month">
+                            <option value="" hidden>Month</option>
+                            <option value="1">1</option>
+                            <option value="12">12</option>
+                        </select>
+                        <select class="year" id="year">
+                            <option value="" hidden>Year</option>
+                            <option value="2025">2025</option>
+                            <option value="1905">1905</option>
+                        </select>
+
+                    </div>
+                </div>
+
+                <div class="gender">
+                    <p>Gender</p>
+                    <div class="dos">
+                        <div class="yan">
+                            <label for="Female" class="rick">Female</label>
+                            <input type="radio" class="khtm" id="Female" name="gender" value="1">
+                        </div>
+                        <div class="yan">
+                            <label for="male" class="rick">Male</label>
+                            <input type="radio" class="khtm" id="male" name="gender" value="2">
+                        </div>
+                        <div class="yan">
+                            <label for="Custom" class="rick">Custom</label>
+                            <input type="radio" class="khtm" id="Custom" name="gender" value="3">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="email">
+                    <input type="email" class="alex" placeholder="Mobile number or email address" id="emailOrMobile">
+                </div>
+                <div class="email">
+                    <input type="password" class="alex" placeholder="New password" id="newPassword">
+                </div>
+                <br>
+                <p class="pep">People who use our service may have uploaded your contact information to Facebook.
+                    <a href="" class="aslam">Learn more.</a>
+                </p>
+                <br>
+                <p class="jose">By clicking Sign Up, you agree to our <a href="" class="aslam">Terms</a>, <a href=""
+                        class="aslam">Privacy Policy</a> and <a href="" class="aslam">Cookies Policy</a>. You may
+                    receive SMS notifications from us and can opt out at any time.</p>
+                <br>
+                
+                <div class="word">
+                    <button onclick="validateForm(event)">Sign up</button>
+                </div>
+                <br>
+                <div class="last">
+                    <a href="">Already have an account?</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="new.js"></script>
+</body>
+
+</html>
